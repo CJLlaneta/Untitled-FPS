@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1146014862756214496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1146014862756214510}
+  - component: {fileID: 1146014862756214497}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1146014862756214510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146014862756214496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.115044, y: -22.479113, z: 32.279415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1146014862756214497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146014862756214496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a1c0c8cb7edd449bbffdec5530d667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoolObjects:
+  - Tag: MuzzleDefault
+    Prefab: {fileID: 8124016746321313118, guid: bb76ccdd79a75ec4889fb4ed05499151,
+      type: 3}
+    Size: 50
+  - Tag: BulletHitDefault
+    Prefab: {fileID: 407448586399826178, guid: ba21ff015f4be474fa94a666a12e8a52, type: 3}
+    Size: 100
+  - Tag: BulletHole_Default
+    Prefab: {fileID: 6063132082503102914, guid: 6fe8ef5ec56adae4d8fef02b7ff8cc08,
+      type: 3}
+    Size: 100
+  - Tag: BloodSplat
+    Prefab: {fileID: 318500417561046335, guid: ebe2469cbc70072439df00e6e13f9c2f, type: 3}
+    Size: 50
+  - Tag: BulletCase
+    Prefab: {fileID: 8460930626175650563, guid: ae70b2ebb7e7c754ab1d8ee2a2b38e77,
+      type: 3}
+    Size: 100
+  - Tag: BulletProjectile
+    Prefab: {fileID: 2303026580776631342, guid: 5b00ae62f1f50bd4a8e65b5b4b094694,
+      type: 3}
+    Size: 100
+  - Tag: BloodKick
+    Prefab: {fileID: 318500417561046335, guid: 3a0fe8a7d3951df4cb4c2b19733803e7, type: 3}
+    Size: 10
+  - Tag: MissKick
+    Prefab: {fileID: 318500417561046335, guid: cc5eaadbe42e4e64aa696b281f125b61, type: 3}
+    Size: 10
+  - Tag: MuzzleDefaultShotGun
+    Prefab: {fileID: 8124016746321313118, guid: 0628c57921524cf4f9504006b1666b50,
+      type: 3}
+    Size: 50

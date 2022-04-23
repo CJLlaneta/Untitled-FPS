@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2625b9f94f93eae4a9fdaa2269481f0a, type: 3}
+  m_Name: DefaultGun
+  m_EditorClassIdentifier: 
+  _FPSPrefab: {fileID: 6056317951934370299, guid: 238346b330c02f542a43b36b625ec690,
+    type: 3}
+  _TPSPrefab: {fileID: 6056317951934370299, guid: a37364475c7187b4d96699a4e8686a18,
+    type: 3}
+  _WeaponDropb: {fileID: 3960000818274073576, guid: 61eb70a4e2e59af44b9126b55acf8a4d,
+    type: 3}
+  _WeaponRange: 50
+  _Damage: 5
+  _Bullets: 15
+  _Shots: 1
+  _RateOfFire: 0.3
+  _SpreadShot: 0.13
+  _SpreadRecoverRate: 0.3
+  _GunForce: 10
+  _ReloadTime: 1.8
+  _EjectionDelay: 0.06
+  _GunMuzzleTag: MuzzleDefault
+  _BulletCaseTag: SmallBulletCase
+  _GunFireSound: {fileID: 8300000, guid: 9f4c6d91d3f15a543b554de7051e15e9, type: 3}
+  _GunDrySound: {fileID: 8300000, guid: 9059032fe31ece7498acfb3da4e72065, type: 3}
+  _CockSound: {fileID: 0}
+  _CockTimePlayer: 0.3
+  _AnimatorController_FPS: {fileID: 9100000, guid: a0215e9a4b4423c4092763f8eafd2e1f,
+    type: 2}
+  _AnimatorController_TPS: {fileID: 9100000, guid: 7aeda4b8341d11c4c97af19958da40bd,
+    type: 2}
+  _ConstraintType: 0
